@@ -1,0 +1,49 @@
+﻿
+
+
+
+
+.sub_cont .sub {
+    max-width: 900px;
+    margin: 200px 350px;
+    padding: 80px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px #ccc;
+  
+}
+
+
+
+h1 {
+    font-size: 36px;
+    margin: 0 0 20px 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="file"] {
+    display: block;
+    margin-bottom: 20px;
+}
+
+form input[type="submit"] {
+    background-color: #003A77;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+    form input[type="submit"]:hover {
+        background-color: #003A77;
+        opacity: 0.8;
+    }
+    .mapa {
+        float: right;
+        margin: 0 10px 10px 10px;
+      }

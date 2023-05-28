@@ -1,0 +1,62 @@
+
+
+
+
+
+.sub_cont .sub {
+    max-width: 900px;
+    margin: 200px 350px;
+    padding: 80px;
+    background-color: rgba(126, 125, 122, 0.5); /* Color con transparencia */
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px #ccc;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../IMG/LB.png");
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+
+.departament{
+
+    background-color: #AE8C52; 
+    color:#fff;
+}
+
+
+h1 {
+    font-size: 36px;
+    margin: 0 0 20px 0;
+    color:#fff;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="file"] {
+    display: block;
+    margin-bottom: 20px;
+}
+
+form input[type="submit"] {
+    background-color: #031a45;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+    form input[type="submit"]:hover {
+        background-color: #003A77;
+        opacity: 0.8;
+    }
